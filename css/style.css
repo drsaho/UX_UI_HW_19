@@ -1,0 +1,190 @@
+.inline-block{
+    display: inline-block;
+    vertical-align: center;
+    color: aliceblue;
+    background-color: #383838;
+
+}
+/*
+nav{
+    background-color: #373738;
+    width: 73%;
+    padding: 1%;
+}
+
+ul{ 
+    width: 50%;
+    margin-left: auto;
+}
+
+li { 
+    display: inline-block;
+    color:aliceblue
+} */
+
+.logo{
+
+width: 23%;
+padding: 1%;
+}
+#dloadBtn{
+    background-color: aqua;
+    border-radius: 15px;
+    color: #454545;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#dloadBtn:hover {
+    background-color: aquamarine;
+}
+
+#prjctBtn {
+    background-color: white;
+    border-radius: 15px;
+    color: #454545;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+
+.logo{ 
+     text-align: center;
+}
+
+.heroImg{
+    height: 600px;
+    padding: 25px;
+}
+
+.content{
+    width: 500px;
+    margin: 100px left;
+    padding-bottom: 10px;
+}
+
+footer ul{ 
+    background-color: #383838;
+    padding: 50px 50px;
+    vertical-align: baseline;
+    color: aliceblue;
+
+
+}
+
+#prjctBtn {
+    background-color: white;
+    border-radius: 15px;
+    color: #454545;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* The first step to creating your “My UX Skills” section is to set a flex container. Set display:
+flex to your <div> with the class of .flexContainer.
+3. Now that you have a flex container created, we need to set the widths of the three <div>
+tags wrapped inside of it.
+a. Apply width 33% to each <div> wrapped inside to create a fully responsive row.
+Note: Don’t forget to apply margin and padding to these <div> tags, creating a
+layout that is evenly spaced.
+4. Write an HTML comment above your section tag that says:
+<!-- My UX Skills section coded using CSS flex -->
+5. Now that you have the basic structure and style created for your “My UX Skills” section,
+your job is to style it to match your visual design! Here are a couple of tips to get you
+working:
+a. Use flex-direction on your flex container to set it to display as either a column or a
+row.
+b. If you are using the placeholder content for this section, fill it with your own
+content from the design you created during the Week 16 homework.
+c. If your design differs from the placeholder content, add in your HTML elements to
+make it match your design and style accordingly.
+          */
+
+.flexContainer{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    /*background-color: #383838;
+    color: aliceblue;*/
+    
+   
+    
+}
+
+.flex-item{ 
+    width: 200px;
+    margin: 10px;
+
+}
+
+.flexChild1{
+    width: 33%;
+    margin: 25px;
+    padding: 10px;
+    
+}
+.flexChild2{
+    width: 75%;
+    margin: 50px;
+    padding: 10px;
+    
+}
+
+
+
+/*  Step 5: Code the CSS Style for the “My Work” Section Using CSS Grid (4-6
+hours)
+1. If your design differs from the HTML content we constructed earlier, create HTML tags
+for your CSS Grid. This will vary from design to design; each design is different.
+Note: For a comprehensive guide on how to use CSS Grid, check out this tutorial.
+2. Apply display: grid; to your div with the class of workGrid to convert this <section> tag
+into a grid container.
+3. Apply named grid areas to your divs wrapped inside your grid container.
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. 7 */
+
+
+.workGrid{
+    display: grid;
+    grid-area: auto;
+}
+
+/* Step 6: Code a Mobile Media Query to Make Your Design Responsive for
+Mobile Devices (1-2 hours)
+1. Write a mobile media query at the bottom of your style.css file. Set this mobile media
+query to take effect at 600 pixels or less using max-width.
+Scroll to the next page.
+2. Inside your mobile media query’s brackets, rewrite the flex-direction of your flex
+container to display as a column.
+3. Rewrite the width of your flex children to make them take up 100% of the width of their
+container.
+4. Rewrite the grid-template-areas, grid-template-rows, and grid-template-columns of your
+© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. 8
+grid container to display for mobile views.
+Note: See below for an example from Unit 18.2 for an example of how you might
+accomplish this.
+Here is a sample grid container set to display on the desktop:
+And here, it is rewritten for mobile browsers. You will have to edit the grid-template-rows
+and grid-template columns and the grid-template-areas for your grid to display correctly.
+*/
+
+@media only screen and (max-width: 600px) {
+  
+  }
+
+  /* Start Homework 19*/ 
+
+  
