@@ -17,8 +17,6 @@ h1{
 }
 
 h3 { color:white;
-    width: 100%;
-    font-size: 50px;
 
 }
 
@@ -95,9 +93,8 @@ footer ul{
 #prjctBtn {
     background-color: white;
     border-radius: 15px;
-    margin-bottom: auto;
     color: #454545;
-    padding: 50px;
+    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -113,9 +110,9 @@ footer ul{
 }
 
 .flex-item { 
-    width: fit-content;
+    width: 33%;
     margin: 10px;
-    padding: 1px;
+    padding: 50px;
     border-bottom: #383838;
     background-color: aliceblue;
 
